@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/title_bg"
+    android:orientation="vertical"
+    android:clickable="true">
+
+    <ImageView
+        android:src="@drawable/slide_home"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_home" />
+
+    <RelativeLayout
+
+        android:id="@+id/home_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/home_item_color">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/house_icon" />
+
+        <TextView
+            android:text="HOME"
+            android:textSize="20sp"
+            android:textColor="#fff4f4f4"
+            android:layout_marginLeft="50dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:dividerHeight="2dp"
+        android:divider="@color/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

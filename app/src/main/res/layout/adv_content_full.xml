@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adv_content_full"
+    android:layout_width="match_parent"
+    android:layout_height="260dip" 
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingRight="20dip"
+    android:paddingLeft="20dip"
+    >
+    
+    <com.android.advsdk.ximage.XImageView
+		android:id="@+id/adv_content_full_icon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"  
+		android:layout_centerVertical="true"
+        />
+ </RelativeLayout>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/adv_notification_remote_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="10dip">
+    
+    <ImageView
+		android:id="@+id/adv_notification_remote_view_icon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"  
+		android:layout_centerVertical="true"
+		android:paddingRight="20dip"
+        />
+       
+    <TextView 
+		android:id="@+id/adv_notification_remote_view_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/adv_notification_remote_view_icon"
+        />
+       
+    <TextView 
+		android:id="@+id/adv_notification_remote_view_content"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/adv_notification_remote_view_title"
+		android:layout_toRightOf="@id/adv_notification_remote_view_icon"
+        />
+ 
+</RelativeLayout>
+
